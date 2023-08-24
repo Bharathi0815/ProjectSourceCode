@@ -1,0 +1,45 @@
+2023-08-24 10:00:18.861  INFO 81516 --- [restartedMain] o.b.SpringmvcBookIssueApplication        : Starting SpringmvcBookIssueApplication using Java 17.0.7 on Ramasubramanians-MacBook-Pro.local with PID 81516 (/Users/ramgandhi/Documents/workspace-spring-tool-suite-4-4.18.0.RELEASE/SpringmvcBookIssue/target/classes started by ramgandhi in /Users/ramgandhi/Documents/workspace-spring-tool-suite-4-4.18.0.RELEASE/SpringmvcBookIssue)
+2023-08-24 10:00:18.864  INFO 81516 --- [restartedMain] o.b.SpringmvcBookIssueApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-08-24 10:00:18.901  INFO 81516 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-24 10:00:18.901  INFO 81516 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-24 10:00:19.183  INFO 81516 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-24 10:00:19.210  INFO 81516 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 4 JPA repository interfaces.
+2023-08-24 10:00:19.508  INFO 81516 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2023-08-24 10:00:19.513  INFO 81516 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-24 10:00:19.513  INFO 81516 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-08-24 10:00:19.616  INFO 81516 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-24 10:00:19.622  INFO 81516 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-24 10:00:19.622  INFO 81516 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 721 ms
+2023-08-24 10:00:19.689  INFO 81516 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-24 10:00:19.715  INFO 81516 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-08-24 10:00:19.796  INFO 81516 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-24 10:00:19.843  INFO 81516 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-24 10:00:20.021  INFO 81516 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-24 10:00:20.036  INFO 81516 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-08-24 10:00:20.383  INFO 81516 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-24 10:00:20.391  INFO 81516 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-24 10:00:20.625  WARN 81516 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-24 10:00:20.728  INFO 81516 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2023-08-24 10:00:20.803  INFO 81516 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-24 10:00:20.826  INFO 81516 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2023-08-24 10:00:20.833  INFO 81516 --- [restartedMain] o.b.SpringmvcBookIssueApplication        : Started SpringmvcBookIssueApplication in 2.129 seconds (JVM running for 2.849)
+2023-08-24 10:02:56.101  INFO 81516 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-24 10:02:56.102  INFO 81516 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-24 10:02:56.102  INFO 81516 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-08-24 10:07:47.711 DEBUG 81516 --- [http-nio-8088-exec-1] org.bharathi.controller.UserController   : Admin checked in with the id 
+2023-08-24 10:09:04.436 DEBUG 81516 --- [http-nio-8088-exec-1] org.bharathi.controller.UserController   : New user form is uploaded 
+2023-08-24 10:09:35.985  INFO 81516 --- [http-nio-8088-exec-9] org.bharathi.controller.UserController   : New user is added with id  :  38
+2023-08-24 10:09:50.276 DEBUG 81516 --- [http-nio-8088-exec-7] org.bharathi.controller.UserController   : New user form is uploaded 
+2023-08-24 10:10:11.482  INFO 81516 --- [http-nio-8088-exec-4] org.bharathi.controller.UserController   : New user is added with id  :  39
+2023-08-24 10:16:40.660  INFO 81516 --- [http-nio-8088-exec-10] org.bharathi.controller.BookController   : New Book is Added with id : 13
+2023-08-24 10:17:08.462  INFO 81516 --- [http-nio-8088-exec-6] org.bharathi.controller.BookController   : Book is deleted with id : 13
+2023-08-24 10:43:22.991  INFO 81516 --- [http-nio-8088-exec-4] org.bharathi.controller.BookController   : New Book is Added with id : 14
+2023-08-24 10:45:46.425 DEBUG 81516 --- [http-nio-8088-exec-1] org.bharathi.controller.UserController   : Admin checked in with the id 
+2023-08-24 10:47:40.710 DEBUG 81516 --- [http-nio-8088-exec-2] org.bharathi.controller.UserController   : Admin checked in with the id 
+2023-08-24 10:48:46.084 DEBUG 81516 --- [http-nio-8088-exec-10] org.bharathi.controller.UserController   : Admin checked in with the id 
+2023-08-24 10:50:27.645  INFO 81516 --- [RMI TCP Connection(52)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-08-24 10:50:27.652  INFO 81516 --- [RMI TCP Connection(52)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-24 10:50:27.655  INFO 81516 --- [RMI TCP Connection(52)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-24 10:50:27.678  INFO 81516 --- [RMI TCP Connection(52)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-24 10:50:27.681  INFO 81516 --- [RMI TCP Connection(52)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-24 10:50:27.685  INFO 81516 --- [RMI TCP Connection(52)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
